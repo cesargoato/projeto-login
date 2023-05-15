@@ -103,3 +103,6 @@ main h1{
    
      }
   #tesoura {display: none;}
+ #ipassword ,#isuer {
+    color: black;
+ }
