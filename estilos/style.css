@@ -97,10 +97,15 @@ main h1{
   
   }
   
-  #restore{position:relative;
+  #irestore{position:relative;
     top:320px;
     left: 100px;
    
+     }
+     #icad{
+        position:relative;
+    top:320px;
+    left: 100px;
      }
   #tesoura {display: none;}
 .placeh{
