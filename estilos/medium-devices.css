@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { main{
+    background-color: rgba(19, 18, 18, 0.808);
+    width: 500px ;
+    height: 350px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+main h1{
+    margin: -5px 30px 30px;
+}
+#container{
+    display: inline-block;
+    position: absolute;
+
+    width: 300px;
+    height: 200px;
+   
+    margin:100px 25px ;
+}
+
+#usuario{
+   
+
+    margin: 10px ; 
+ 
+}
+#senha{position: relative;
+    
+}
+
+
+
+
+.btn {
+       width: 150px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #0d0d0e;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+#tesoura{ 
+   position: relative;
+display: contents;
+    width: 300px;
+    height: 200px;
+    top: 50px;
+    left: 300px;
+}
+#tesoura {
+    display: block;
+      
+
+}
+#tesoura img{display: block;
+    border-radius:50%;
+    width: 100px;
+padding: 10px;} 
+
+#tesoura img:hover
+{
+    width: 110px;
+} 
+
+#restore{position:relative;
+    top:320px;
+    left: 110px;
+   
+     }
+     #restore:hover{
+        font-size: 1.02em;
+     }
+
+
+}
+
