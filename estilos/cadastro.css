@@ -20,10 +20,9 @@
         height: 70vh;
            margin: auto;
           
-       /* 
        
         
-        box-shadow: 10px 10px 40px black;*/
+        box-shadow: 10px 10px 40px black;
         
     }
     
@@ -90,11 +89,12 @@
         color: black;
      }
 #zone0{text-align: center;}
-#zone1{position: absolute; top: 30px; left: 100px;}
-#zone2{}
-#zone3{}
-#zone4{}
-#zone5{}
-#zone6{}
-#zone7{}
-#zonae{}
+#zone1{margin: 25px;}/*Name*/
+#zone2{margin: 25px;}/*email*/
+#zone3{ margin: 25px;}/*password*/
+#zone4{ }/*nasci*/
+#zone5{ display: none;}/*arquiv*/
+#zone6{ margin: 25px 54px;}/*nasci*/
+#zone7{ margin: 25px 110px;}/*sex*/
+#zona8{margin: 32px;}/*tiposerv*/
+#zone9{ margin: 32px;}

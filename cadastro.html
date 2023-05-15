@@ -6,87 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de astronauta</title>
-    
-<link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/medim-devices-cadastro.css">
 </head>
 
 <body>
     <main>
-    <h1 id="zone0">Cadastro para novos clientes</h1>
-    <form action="">
-        <div= id="zone1">
-            <label for="inome">Nome:</label>
-            <input  class="placeh" type="text" name="nome" id="inome" >
-        </div>
-<br>
-<div id="zone2">
-            <label for="iemail">E-mail:</label>
-            <input class="placeh" type="email" name="email" id="iemail">
-            <div id="zone3"required  >
-            <label for="ipassword">Senha:</label>
-            <input class="placeh" type="password" name="password" id="ipassword"></div>
-        </div>
-        <div id="zone4">
-            <label for="idata">Data de Nascimento:</label>
-             <input class="placeh" type="date" name="data" id="idata">
+        <h1 id="zone0">Cadastro para novos clientes</h1>
+        <form action="">
+            <div id="zone1">
+                <label for="inome">Nome:</label>
+                <input class="placeh" type="text" name="nome" id="inome">
+            </div>
+            <!--Fim da zona 1-->
+            <div id="zone2">
+
+                <label for="iemail">E-mail:</label>
+                <input class="placeh" type="email" name="email" id="iemail">
+            </div>
+            <!--Fim da zona 2-->
+
+
+
+
+            <div id="zone3">
+                <label for="ipassword">Senha:</label>
+                <input class="placeh" type="password" name="password" id="ipassword" required>
+            </div>
+
+            <!--Fim da zona 3-->
+
+            <div id="zone4">
+                <label for="idata">Data de Nascimento:</label>
+                <input class="placeh" type="date" name="data" id="idata">
+            </div>
+            <!--Fim da zona 4-->
+
             <div id="zone5">
-                
+
                 <label for="iarq">Foto:</label>
                 <input class="placeh" type="file" name="arq" id="iarq">
             </div>
-        </div>
-        <div id="zone6" >
-            <label for="inasc">Nacionalidade:</label>
+            <!--Fim da zona 5-->
+
+            <div id="zone6">
+                <label for="inasc">Nacionalidade:</label>
                 <select class="placeh" id="inasc">
-                <option class="placeh" value="Brasileiro">Brasileiro</option>
-                <option class="placeh" value="Argentino">Argentino</option>
-                <option class="placeh" value="Coreano">Coreano</option>
-                <option  class="placeh" value="Americano">Americano</option>
-                <option  class="placeh" value="Colombiano">Colombiano</option>
+                    <option class="placeh" value="Brasileiro">Brasileiro</option>
+                    <option class="placeh" value="Argentino">Argentino</option>
+                    <option class="placeh" value="Coreano">Coreano</option>
+                    <option class="placeh" value="Americano">Americano</option>
+                    <option class="placeh" value="Colombiano">Colombiano</option>
                 </select>
-                <div id="zone7">
-            <label for="f">Genero: F</label><INPUT TYPE="RADIO" NAME="genero" VALUE="F" id="f">
-            <label for="m">M</label> <INPUT TYPE="RADIO" NAME="genero" VALUE="m" id="m"></div>
 
-        </div>
-        <p>
-            Quais serviços costuma fazer ?:
             </div>
-        <div id="zone8">
-            <label for="icorte">Corte de cabelo</label>
-            <input type="checkbox" name="corte" id="icorte">
+            <!--Fim da zona 6-->
+            <div id="zone7">
+                <label for="f">Genero: F</label><INPUT TYPE="RADIO" NAME="genero" VALUE="F" id="f">
+                <label for="m">M</label> <INPUT TYPE="RADIO" NAME="genero" VALUE="m" id="m">
+            </div>
+            <!--Fim da zona 7-->
+            <div id="zone8">
+                <p>
+                    Quais serviços costuma fazer ?:
 
-            <label for="ibarba">|Barba:</label>
-            <input type="checkbox" name="" id="ibarba">
 
-            <label for="ipezinho">| Pézinho:</label>
-            <input type="checkbox" name="" id="ipezinho">
+                    <label for="icorte">Corte de cabelo</label>
+                    <input type="checkbox" name="corte" id="icorte">
 
-            <label for="iescova">|Escova:</label>
-            <input type="checkbox" name="" id="iescova">
-        </div>
+                    <label for="ibarba">|Barba:</label>
+                    <input type="checkbox" name="" id="ibarba">
 
-        <textarea placeholder="Deixe sua sugestão para melhor atendimento" name="text1" id="itext1" cols="30"
-            rows="10"></textarea>
-        <div>
-            <div class="container">
-                <div class="center">
-                  <button class="btn">
-                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                    </svg>
-                    <span>Criar</span>
-                  </button>
+                    <label for="ipezinho">| Pézinho:</label>
+                    <input type="checkbox" name="" id="ipezinho">
+
+                    <label for="iescova">|Escova:</label>
+                    <input type="checkbox" name="" id="iescova">
+            </div>
+            <!--Fim da zona 8-->
+            <div id="zone9">
+                <textarea placeholder="Deixe sua sugestão para melhor atendimento" name="text1" id="itext1" cols="30"
+                    rows="10"></textarea>
+                <div>
+                    <div class="container">
+                        <div class="center">
+                            <button class="btn">
+                                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                </svg>
+                                <span>Criar</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-        </div>
-        
-       
 
-        </main>
-        </div>
-    </form>
+
+            </div>
+ <!--Fim da zona 9-->
+            </div>
+        </form>
+    </main>
 </body>
 
 </html>
